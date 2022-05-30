@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
       <Nav />
       <Routes >
-        <Route path='/Feltteachers/' element={<Signup />} />
+        <Route path='/Feltteachers/' index element={<Signup />} />
         <Route path='/Feltteachers/login' element={<Login />} />
         <Route path='/Feltteachers/forgot' element={<Forgot />} />
         <Route path='/Feltteachers/test' element={<Test />} />

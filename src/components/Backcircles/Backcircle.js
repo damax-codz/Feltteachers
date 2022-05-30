@@ -8,7 +8,7 @@ const Backcircle = (props) => {
   return (
       <>
     <div className='back' style={{backgroundColor:props.bg}}>
-        <p><Link to='/'>Back</Link></p>
+        <p><Link to='/Feltteaches/'>Back</Link></p>
     <div className='circleone'></div>
     <motion.div  animate={{
       scale: [1, 2, 2, 1, 1],
