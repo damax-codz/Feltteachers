@@ -79,7 +79,7 @@ const Test = () => {
         </div>
         <div className='mainpage'>
             <div className='instruction'>
-                <p className='profile'><Link to='/'>Back to Profile</Link></p>
+                <p className='profile'><Link to='Feltteachers/'>Back to Profile</Link></p>
                 
                 <div>
                 <p>Instructions :</p>

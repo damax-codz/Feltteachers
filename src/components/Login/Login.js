@@ -73,13 +73,13 @@ const Login = () => {
           <input type="email" name="email" placeholder="Email"></input>
           <input type="password" name="password" placeholder="Password"></input>
           <div>
-            <p><Link to='/forgot'>Forgot Password</Link></p>
-            <Link to='/test'><button type="submit">Login</button></Link>
+            <p><Link to='/Feltteachers/forgot'>Forgot Password</Link></p>
+            <Link to='/Feltteachers/test'><button type="submit">Login</button></Link>
           </div>
           <p className="dont">
             Don't have an account?{" "}
             <span>
-              <Link to="/">Signup</Link>
+              <Link to="/Feltteachers/">Signup</Link>
             </span>
           </p>
         </form>
