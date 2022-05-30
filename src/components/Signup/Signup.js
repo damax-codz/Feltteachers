@@ -20,7 +20,7 @@ const Signup = () => {
         <input type='password' name='password' placeholder='Password'></input>
         <input type='password' name='password' placeholder='Confirm Password'></input>
         <input type='password' name='password' placeholder='Passcode'></input>
-        <Link to='/Feltteachers/findteachers'> <button type='submit'>Sign up</button></Link>
+        <Link to='/Feltteachers/test'> <button type='submit'>Sign up</button></Link>
         <p>Already have an account? <span><Link to='/Feltteachers/login'>Login</Link></span></p>
 
     </form>

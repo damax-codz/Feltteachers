@@ -121,7 +121,7 @@ const Test = () => {
                 <div className='controls'>
                     <span className='prev' onClick={Prev}>Prev</span>
                     <button className='next' onClick={Next}>Next</button> 
-                    <Link to='/Feltteachers/findteachers/' className='sub' onClick={Submit}> <span class='submittest'>Submit</span> </Link>
+                    <Link to='/Feltteachers/findteachers' className='sub' onClick={Submit}> <span class='submittest'>Submit</span> </Link>
                 </div>
                 </div>
 
