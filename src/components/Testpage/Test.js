@@ -28,7 +28,7 @@ const Test = () => {
       if( questionNum==10 ){
           setQuestionNum(10)
           document.querySelector('.controls').innerHTML=`
-          <span class='submittest'>Submit</span>` 
+         <Link to='Feltteachers/findteachers/'> <span class='submittest'>Submit</span>` 
           document.querySelector('.submittest').addEventListener('click',Submit)
       }
   }
@@ -54,7 +54,7 @@ const Test = () => {
 
   function Submit(){
       toast.success("You've successfully taken your test")
-      setTimeout( ()=>window.location='/Feltteachers/findteachers',2000)
+    //   setTimeout( ()=>window.location='/Feltteachers/findteachers',2000)
   }
   useEffect(()=>{
       setTimeout(()=>setTime(time-1),1000)
