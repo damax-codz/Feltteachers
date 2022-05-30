@@ -25,3 +25,6 @@
     color: rgba(94, 93, 186, 1);
     font-weight: 600;
 }
+.sub{
+    display:none;
+}

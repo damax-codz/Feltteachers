@@ -27,9 +27,9 @@ const Test = () => {
       document.querySelectorAll('.check').forEach(item=>item.checked=false)
       if( questionNum==10 ){
           setQuestionNum(10)
-          document.querySelector('.controls').innerHTML=`
-         <Link to='Feltteachers/findteachers/'> <span class='submittest'>Submit</span>` 
-          document.querySelector('.submittest').addEventListener('click',Submit)
+          document.querySelector('.sub').style.display='flex'
+          document.querySelector('.prev').style.display='none'
+          document.querySelector('.next').style.display='none'
       }
   }
 
@@ -54,7 +54,6 @@ const Test = () => {
 
   function Submit(){
       toast.success("You've successfully taken your test")
-    //   setTimeout( ()=>window.location='/Feltteachers/findteachers',2000)
   }
   useEffect(()=>{
       setTimeout(()=>setTime(time-1),1000)
@@ -121,7 +120,8 @@ const Test = () => {
                         </div>
                 <div className='controls'>
                     <span className='prev' onClick={Prev}>Prev</span>
-                    <button onClick={Next}>Next</button> 
+                    <button className='next' onClick={Next}>Next</button> 
+                    <Link to='Feltteachers/findteachers/' className='sub' onClick={Submit}> <span class='submittest'>Submit</span> </Link>
                 </div>
                 </div>
 
