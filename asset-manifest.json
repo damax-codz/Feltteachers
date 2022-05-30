@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Feltteachers/static/css/main.b81c8c74.css",
-    "main.js": "/Feltteachers/static/js/main.67519517.js",
+    "main.js": "/Feltteachers/static/js/main.c88d59f6.js",
     "static/js/787.be4ea82f.chunk.js": "/Feltteachers/static/js/787.be4ea82f.chunk.js",
     "static/media/logo.svg": "/Feltteachers/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Feltteachers/index.html",
     "main.b81c8c74.css.map": "/Feltteachers/static/css/main.b81c8c74.css.map",
-    "main.67519517.js.map": "/Feltteachers/static/js/main.67519517.js.map",
+    "main.c88d59f6.js.map": "/Feltteachers/static/js/main.c88d59f6.js.map",
     "787.be4ea82f.chunk.js.map": "/Feltteachers/static/js/787.be4ea82f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b81c8c74.css",
-    "static/js/main.67519517.js"
+    "static/js/main.c88d59f6.js"
   ]
 }
