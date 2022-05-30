@@ -28,7 +28,7 @@ const Test = () => {
       if( questionNum==10 ){
           setQuestionNum(10)
           document.querySelector('.controls').innerHTML=`
-          <span class='submittest' >Submit</span>` 
+          <span class='submittest'>Submit</span>` 
           document.querySelector('.submittest').addEventListener('click',Submit)
       }
   }
