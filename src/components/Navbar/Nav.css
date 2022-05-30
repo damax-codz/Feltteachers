@@ -1,0 +1,27 @@
+#logo{
+    width:30px;
+    height: 30px;
+    background-color: rgba(94, 93, 186, 1);
+    color:  rgba(var(--bs-light-rgb),var(--bs-bg-opacity));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 3px;
+}
+#logo span{
+    position: absolute;
+    bottom: 5px;
+    font-size: 25px;
+    font-weight:900;
+}
+#nav{
+    position: relative;
+    top: 0;
+    box-shadow: 0.5px 1px 1px 1px rgba(0, 0, 0, 0.156);
+    z-index: 1000;
+}
+#nav-title{
+    color: rgba(94, 93, 186, 1);
+    font-weight: 600;
+}

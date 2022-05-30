@@ -1,0 +1,95 @@
+.loginform{
+    height: 100%;
+    width: 100%;
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.loginform form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    border: 1px solid rgba(230, 230, 232, 1);
+    padding: 0px 30px 30px 30px;
+    margin-top: 30px;
+    background: rgba(230, 230, 232, 1);
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.09);
+}
+.loginform form h3{
+    color: rgba(94, 93, 186, 1);
+    margin: 10px 0px 0px 0px;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.loginform form input{
+    background-color: white;
+    border: 1px solid rgb(203, 203, 219);;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    margin: 10px 0px 10px 0px ;
+    padding: 5px;
+}
+.loginform form input::placeholder{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.371);
+}
+.loginform form div{
+    width: 100%;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.loginform form div button{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid rgba(94, 93, 186, 1);
+    border-radius: 5px;
+    color: rgba(94, 93, 186, 1);
+    text-transform: capitalize;
+    font-weight: 700px;
+}
+.loginform form div p{
+    cursor: pointer;
+}
+.loginform form div p a{
+    color: rgba(253, 184, 39, 1);
+}
+.loginform form .dont{
+    color: blue;
+    margin-top: 20px;
+}
+.loginform form .dont span{
+    color: rgba(253, 184, 39, 1);
+    text-decoration: underline;
+}
+.loginform form .dont span a{
+    color: rgba(253, 184, 39, 1);
+}
+.loginform .select{
+    margin-bottom: 30px;    
+}
+.loginform .select div{
+    border: 2px solid rgb(208, 208, 209);
+    display: flex;
+    justify-content: center;
+    padding: 8px 5px;
+    background-color: white;
+    color: rgb(208, 208, 209);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+@media (max-width:1000px) {
+    .loginform form{ width: 65%; }
+}
+@media (max-width:500px) {
+    .loginform form{ width: 85%; }
+}

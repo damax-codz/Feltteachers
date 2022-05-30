@@ -1,0 +1,180 @@
+.test{
+    width: 100%;
+    display: flex;
+}
+.test .side{
+    width: 20%;
+    height: 100vh;
+    background-color: white;
+    align-items: center;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+.test .side .teach{
+    margin: 30px 0px 20px 0px;
+    background-color: rgba(94, 93, 186, 1);
+    padding: 5px 40px;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    
+}
+.test .side .subject{
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.test .side .subject label{
+    font-weight: 600;
+}
+.test .side .subject select{
+    margin: 10px 0px 0px 0px;
+    padding: 3px 10px;
+    border: 1px solid rgba(94, 93, 186, 1);
+    color: rgba(94, 93, 186, 1);
+    border-radius: 6px;
+}
+
+.mainpage{
+    width: 80%;
+    height: 100vh;
+    background-color: rgb(203, 203, 219);
+    display: flex;
+    flex-direction: column;
+}
+.mainpage .instruction .profile{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 20px 0px 0px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.mainpage .instruction .profile a{
+    color: rgba(94, 93, 186, 1);
+    text-decoration: none;
+
+}
+.mainpage .instruction div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 0px 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.mainpage .instruction div ol{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.mainpage .instruction div p{
+    padding-left: 1rem;
+}
+.mainpage .instruction button{
+    border: 1px solid rgba(94, 93, 186, 1);
+    background-color: rgba(94, 93, 186, 1);
+    padding: 5px 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px 0px 0px 0px;
+}
+.mainpage .testpage .profile{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 20px 0px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(253, 184, 39, 1);
+}
+
+.mainpage .testpage>div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 0px 20px;
+}
+.mainpage .testpage>div .question{
+    margin: 0px 0px 20px 0px;
+    font-weight: 600;
+}
+.mainpage .testpage>div .answer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mainpage .testpage>div .answer span{
+    margin: 0px 0px 10px 0px;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mainpage .testpage>div .controls{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 40px 0px 0px 0px;
+}
+.mainpage .testpage>div .controls .prev{
+    color: rgba(94, 93, 186, 1);
+    margin: 0px 100px 0px 0px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.mainpage .testpage>div .controls button{
+    background-color: rgba(94, 93, 186, 1);
+    border: 1px solid rgba(94, 93, 186, 1);
+    border-radius: 15px;
+    padding: 3px 40px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.testpage{
+    display: none;
+    flex-direction: column;
+}
+.testpage div> .prog{
+    width: 80% ;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 30px 0px;
+}
+.testpage div> .prog div{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(94, 93, 186, 1);
+}
+.submittest{
+    width: 120px;
+    height: 35px;
+    background-color: rgba(94, 93, 186, 1);
+    border: 1px solid rgba(94, 93, 186, 1);
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+@media (max-width:600px) {
+    .test .side{width: 0%;}
+    .mainpage{ width: 100%; }
+    .mainpage .testpage .profile{width: 100%; }
+    .testpage div> .prog { width: 95%; }
+    .mainpage .testpage>div .controls{ width: 100%; }
+}
