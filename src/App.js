@@ -16,12 +16,12 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Nav />
-      <Routes>
-        <Route path='/' element={<Signup />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/forgot' element={<Forgot />} />
-        <Route path='/test' element={<Test />} />
-        <Route path='/findteachers' element={<Find />} />
+      <Routes >
+        <Route path='/Feltteachers/' element={<Signup />} />
+        <Route path='/Feltteachers/login' element={<Login />} />
+        <Route path='/Feltteachers/forgot' element={<Forgot />} />
+        <Route path='/Feltteachers/test' element={<Test />} />
+        <Route path='/Feltteachers/findteachers' element={<Find />} />
       </Routes>
      
       </BrowserRouter>
